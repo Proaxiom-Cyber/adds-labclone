@@ -539,16 +539,16 @@ function Export-PasswordCSV {
 # ---------------------------------------------------------
 
 Clear-Host
-Write-Host "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!" -ForegroundColor Red -BackgroundColor Black
-Write-Host "!!!                      CRITICAL WARNING                          !!!" -ForegroundColor Red -BackgroundColor Black
-Write-Host "!!!                                                                !!!" -ForegroundColor Red -BackgroundColor Black
-Write-Host "!!!  THIS SCRIPT IS DESTRUCTIVE AND INTENDED FOR ISOLATED LABS ONLY. !!!" -ForegroundColor Red -BackgroundColor Black
-Write-Host "!!!                                                                !!!" -ForegroundColor Red -BackgroundColor Black
-Write-Host "!!!  DO NOT RUN THIS IN A PRODUCTION ENVIRONMENT.                  !!!" -ForegroundColor Red -BackgroundColor Black
-Write-Host "!!!                                                                !!!" -ForegroundColor Red -BackgroundColor Black
-Write-Host "!!!  IT WILL SEIZE ROLES, DELETE DOMAIN CONTROLLERS, AND RESET     !!!" -ForegroundColor Red -BackgroundColor Black
-Write-Host "!!!  PASSWORDS ACROSS THE DOMAIN.                                  !!!" -ForegroundColor Red -BackgroundColor Black
-Write-Host "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!" -ForegroundColor Red -BackgroundColor Black
+Write-Host "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!" -ForegroundColor Red -BackgroundColor Black
+Write-Host "!!!                       CRITICAL WARNING                            !!!" -ForegroundColor Red -BackgroundColor Black
+Write-Host "!!!                                                                   !!!" -ForegroundColor Red -BackgroundColor Black
+Write-Host "!!!  THIS SCRIPT IS DESTRUCTIVE AND INTENDED FOR ISOLATED LABS ONLY.  !!!" -ForegroundColor Red -BackgroundColor Black
+Write-Host "!!!                                                                   !!!" -ForegroundColor Red -BackgroundColor Black
+Write-Host "!!!  DO NOT RUN THIS IN A PRODUCTION ENVIRONMENT.                     !!!" -ForegroundColor Red -BackgroundColor Black
+Write-Host "!!!                                                                   !!!" -ForegroundColor Red -BackgroundColor Black
+Write-Host "!!!  IT WILL SEIZE ROLES, DELETE DOMAIN CONTROLLERS, AND RESET        !!!" -ForegroundColor Red -BackgroundColor Black
+Write-Host "!!!  PASSWORDS ACROSS THE DOMAIN.                                     !!!" -ForegroundColor Red -BackgroundColor Black
+Write-Host "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!" -ForegroundColor Red -BackgroundColor Black
 Write-Host ""
 Write-Host "To confirm you are running this in an ISOLATED LAB environment," -ForegroundColor Yellow
 Write-Host "type 'PROCEED' (all caps) and press Enter." -ForegroundColor Yellow
