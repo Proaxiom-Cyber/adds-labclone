@@ -1,0 +1,36 @@
+# PowerShell
+*.ps1xml
+*.pssc
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Logs
+*.log
+lab-clone-*.log
+
+# Password CSV files (sensitive)
+lab-passwords-*.csv
+*-passwords-*.csv
+
+# Temporary files
+*.tmp
+*.temp
+
