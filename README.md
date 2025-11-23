@@ -39,7 +39,7 @@ This project has been explicitly tested on:
 
 ## Usage
 
-To run the script, open an **Elevated PowerShell** window and execute the following command:
+To run the script, open an **Elevated Command Prompt** window and execute the following command:
 
 ```powershell
 powershell.exe -NoProfile -ExecutionPolicy Bypass -Command "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; irm 'https://raw.githubusercontent.com/Proaxiom-Cyber/adds-labclone/main/adds-lab-clone.ps1' | iex"
